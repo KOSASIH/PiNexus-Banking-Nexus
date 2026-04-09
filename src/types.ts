@@ -291,6 +291,164 @@ export interface NetworkStats {
 }
 
 // ============================================================
+// Dual Coin System Types
+// ============================================================
+
+export interface DualCoinConfig {
+  pnx: {
+    address: string;
+    symbol: 'PNX';
+    decimals: 18;
+    totalSupply: bigint;
+  };
+  pinex: {
+    address: string;
+    symbol: 'PiNEX';
+    decimals: 18;
+    peg: 'USD';
+    pegRatio: 1;
+    stabilityMechanism: 'hybrid'; // collateral + algorithmic
+  };
+  swapEngine: {
+    fee: number;
+    maxPerTx: bigint;
+    dailyLimit: bigint;
+    cooldown: number;
+    twapWindow: number;
+  };
+  arbitrage: {
+    enabled: boolean;
+    minSpread: number;
+    maxPosition: bigint;
+  };
+}
+
+export interface StablecoinVault {
+  id: string;
+  owner: string;
+  collateralType: string;
+  collateralAmount: bigint;
+  debtPiNEX: bigint;
+  collateralRatio: number;
+  healthFactor: number;
+  liquidationPrice: bigint;
+  stabilityFee: number;
+  lastAccrual: number;
+}
+
+export interface PegStatus {
+  currentPrice: number;
+  targetPrice: number;
+  deviation: number;
+  band: 'stable' | 'warning' | 'critical';
+  lastUpdate: number;
+  circuitBreakerActive: boolean;
+}
+
+// ============================================================
+// Self-Development Types
+// ============================================================
+
+export interface EvolutionReport {
+  generation: number;
+  bestFitness: number;
+  avgFitness: number;
+  mutations: number;
+  eliteSurvivors: number;
+  convergenceRate: number;
+}
+
+export interface SecurityPatch {
+  id: string;
+  target: string;
+  vulnerability: string;
+  severity: 'low' | 'medium' | 'high' | 'critical';
+  testsPassed: number;
+  testsTotal: number;
+  approved: boolean;
+  deployedAt: number | null;
+}
+
+export interface SelfHealReport {
+  component: string;
+  issue: string;
+  resolution: string;
+  automated: boolean;
+  downtime: number; // ms
+  timestamp: number;
+}
+
+// ============================================================
+// Identity & Reputation Types
+// ============================================================
+
+export interface DIDDocument {
+  id: string; // did:pinexus:0x...
+  controller: string;
+  verificationMethods: VerificationMethod[];
+  services: DIDService[];
+  created: number;
+  updated: number;
+}
+
+export interface VerificationMethod {
+  id: string;
+  type: 'QuantumResistantKey2024' | 'Ed25519VerificationKey2020';
+  controller: string;
+  publicKeyMultibase: string;
+}
+
+export interface DIDService {
+  id: string;
+  type: string;
+  serviceEndpoint: string;
+}
+
+export interface ReputationScore {
+  did: string;
+  overall: number; // 0-1000
+  dimensions: {
+    mining: number;
+    governance: number;
+    defi: number;
+    social: number;
+    development: number;
+    security: number;
+  };
+  percentile: number;
+  updatedAt: number;
+}
+
+// ============================================================
+// Marketplace Types
+// ============================================================
+
+export interface MarketplaceListing {
+  id: string;
+  type: 'model' | 'dataset' | 'compute' | 'service';
+  name: string;
+  creator: string;
+  price: bigint;
+  rating: number;
+  sales: number;
+  revenue: bigint;
+  category: string;
+  createdAt: number;
+}
+
+// ============================================================
+// Interplanetary Types
+// ============================================================
+
+export interface PlanetaryNodeConfig {
+  location: 'earth' | 'leo_orbit' | 'lunar' | 'mars' | 'deep_space';
+  role: 'validator' | 'relay' | 'archive' | 'light';
+  latencyBudget: number;
+  bandwidthMin: number;
+  redundancy: number;
+}
+
+// ============================================================
 // Configuration Types
 // ============================================================
 
