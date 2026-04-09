@@ -1,7 +1,7 @@
-# PiNexus Super Canggih Technologies — Technical Reference
+# PiNexus Super Advanced Technologies — Technical Reference
 
 > **World-First Innovations for Unrivaled Supremacy**
-> Version 0.5.0 | 17 Super Canggih Technologies | Not Tertandingi
+> Version 0.5.0 | 17 Super Advanced Technologies | Unmatched
 
 ---
 
@@ -335,7 +335,7 @@ Net carbon-negative blockchain operation.
 
 ---
 
-## Performance Summary — All Super Canggih Technologies
+## Performance Summary — All Super Advanced Technologies
 
 | Technology | Key Metric | Target |
 |-----------|-----------|--------|
@@ -363,6 +363,6 @@ Net carbon-negative blockchain operation.
 
 > **PiNexus: The Singularity Starts Here.** 🚀
 >
-> These 17 super canggih technologies propel PiNexus to unmatched supremacy,
+> These 17 super advanced technologies propel PiNexus to unmatched supremacy,
 > blending proven advancements with groundbreaking world-first inventions.
 > Implement iteratively to dominate the AGI-blockchain era.

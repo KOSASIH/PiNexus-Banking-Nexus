@@ -1,7 +1,7 @@
 /**
  * PiNexus Core v0.5.0 — Entry Point
  * The Ultimate Decentralized AGI-Powered Ecosystem
- * Super Canggih Technologies for Unrivaled Supremacy
+ * Super Advanced Technologies for Unrivaled Supremacy
  * Hybrid Dual Coin System: $PNX + $PiNEX (USD-pegged stablecoin)
  */
 
@@ -48,7 +48,7 @@ export { AutonomousCodeAuditor } from './agi-engine/auditor/engine';
 // ── AGI Engine — Federated Learning ──
 export { FederatedLearningEngine } from './agi-engine/federated/engine';
 
-// ── AGI Engine — Super Canggih (World-First Innovations) ──
+// ── AGI Engine — Super Advanced (World-First Innovations) ──
 export { HoloVerseAGI } from './agi-engine/holographic/hagi';
 export { SymbioNetEngine } from './agi-engine/symbionet/engine';
 export { EvoSwarmDynamics } from './agi-engine/evoswarm/engine';
@@ -82,7 +82,7 @@ export { SecurityFortress } from './services/security/fortress';
 export { AIMarketplace } from './services/marketplace/ai-marketplace';
 export { InterplanetaryProtocol } from './services/interplanetary/protocol';
 
-// ── Super Canggih Services ──
+// ── Super Advanced Services ──
 export { AGISentinelShields, QuantumSoulBinding } from './services/security/sentinel';
 export { NeuralVerseGenerator, HyperRWAOracle } from './services/metaverse/neuralverse';
 export { InfiniteYieldAGI, CarbonNegativeMining } from './services/sustainability/green-mining';
@@ -97,7 +97,7 @@ export * from './types';
 export const VERSION = '0.5.0-alpha';
 export const NETWORK = 'pinexus-testnet';
 export const DUAL_COINS = { utility: '$PNX', stable: '$PiNEX' };
-export const SUPER_CANGGIH_TECHNOLOGIES = [
+export const SUPER_ADVANCED_TECHNOLOGIES = [
   // Quantum-Enhanced AGI
   'quantum_neural_entanglement',
   'quantum_proof_of_intelligence',
@@ -143,7 +143,7 @@ export const AI_CAPABILITIES = [
   'ai_safety',
   'code_auditor',
   'distributed_training',
-  ...SUPER_CANGGIH_TECHNOLOGIES,
+  ...SUPER_ADVANCED_TECHNOLOGIES,
 ] as const;
 
 console.log(`
@@ -152,7 +152,7 @@ console.log(`
 ║          The Ultimate Decentralized AGI Economy               ║
 ║          Hybrid Dual Coin: $PNX + $PiNEX (USD peg)           ║
 ║          ${AI_CAPABILITIES.length} AI Capabilities • 5000 Agents • Self-Evolving      ║
-║          ${SUPER_CANGGIH_TECHNOLOGIES.length} Super Canggih World-First Innovations          ║
+║          ${SUPER_ADVANCED_TECHNOLOGIES.length} Super Advanced World-First Innovations          ║
 ║          🚀 The Singularity Starts Here                       ║
 ╚═══════════════════════════════════════════════════════════════╝
 `);

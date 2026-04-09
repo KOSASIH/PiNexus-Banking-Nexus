@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Solidity-^0.8.20-363636?logo=solidity&logoColor=white" alt="Solidity"/>
   <img src="https://img.shields.io/badge/AI_Modules-35-purple-purple.svg" alt="AI Modules"/>
   <img src="https://img.shields.io/badge/Dual_Coin-PNX_+_PiNEX-gold.svg" alt="Dual Coin"/>
-  <img src="https://img.shields.io/badge/Super_Canggih-17_World--First-gold.svg" alt="Super Canggih"/>
+  <img src="https://img.shields.io/badge/Super_Advanced-17_World--First-gold.svg" alt="Super Advanced"/>
   <img src="https://img.shields.io/badge/Agents-5000-red.svg" alt="Agents"/>
   <img src="https://img.shields.io/badge/Files-71-informational.svg" alt="Files"/>
   <img src="https://img.shields.io/badge/Lines_of_Code-16%2C735-informational.svg" alt="Lines of Code"/>
@@ -28,7 +28,7 @@
   <a href="docs/GOVERNANCE.md">🏛️ Governance</a> •
   <a href="docs/IDENTITY.md">🪪 Identity</a> •
   <a href="docs/ADVANCED_AI.md">⚡ Advanced AI</a> •
-  <a href="docs/SUPER_CANGGIH_TECH.md">🚀 Super Canggih</a> •
+  <a href="docs/SUPER_ADVANCED_TECH.md">🚀 Super Advanced</a> •
   <a href="docs/API_REFERENCE.md">📡 API</a>
 </p>
 
@@ -49,13 +49,13 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 | Metric | Value |
 |--------|-------|
 | 🤖 AI Agents | 5,000 autonomous super-agents (6 types, 24 sub-types) |
-| 🧠 AI Modules | 35 capabilities (18 core + 17 super canggih) |
+| 🧠 AI Modules | 35 capabilities (18 core + 17 super advanced) |
 | ⚡ Throughput | 10M+ TPS via Fractal Sharding 2.0 |
 | 🔐 Security | 7-layer defense + Sentinel Shields (1B+ vectors/sec) + Quantum Soul |
 | 💰 Dual Coins | $PNX (utility) + $PiNEX (USD stablecoin) |
 | 📜 Smart Contracts | 5 auditable Solidity contracts |
 | 🏛️ Governance | Multi-mechanism DAO with Constitutional AI |
-| 🚀 Super Canggih | 17 world-first innovations |
+| 🚀 Super Advanced | 17 world-first innovations |
 | 🌍 Scale Target | 1 billion users within 5 years |
 
 ---
@@ -159,7 +159,7 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 
 ---
 
-## 🚀 Super Canggih Technologies — 17 World-First Innovations
+## 🚀 Super Advanced Technologies — 17 World-First Innovations
 
 ### Quantum-Enhanced AGI
 
@@ -213,7 +213,7 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 | 16 | **💎 Infinite Yield AGI** | Self-funding vaults via PrediCausality predictions | Target: 100% APY risk-adjusted |
 | 17 | **🌱 Carbon-Negative Mining** | AGI-optimized renewable energy + 150% carbon offset | Net carbon-negative every block |
 
-📖 [Full Super Canggih Tech Reference →](docs/SUPER_CANGGIH_TECH.md)
+📖 [Full Super Advanced Tech Reference →](docs/SUPER_ADVANCED_TECH.md)
 
 ---
 
@@ -339,7 +339,7 @@ PiNexus-Banking-Nexus/
 │   ├── IDENTITY.md                           # DID & reputation system
 │   ├── API_REFERENCE.md                      # Developer API reference
 │   ├── ADVANCED_AI.md                        # Advanced AI modules reference (v0.4.0)
-│   ├── SUPER_CANGGIH_TECH.md                 # 17 Super Canggih world-first innovations
+│   ├── SUPER_ADVANCED_TECH.md                 # 17 Super Advanced world-first innovations
 │   └── CONTRIBUTING.md                       # Contribution guidelines
 │
 ├── ⛓️ src/blockchain/                        # Blockchain core layer
@@ -538,7 +538,7 @@ const round = await fl.executeRound('fedavg', 1.0);
 | 🏛️ [Governance](docs/GOVERNANCE.md) | DAO, voting mechanisms, constitution |
 | 🪪 [Identity](docs/IDENTITY.md) | DID, reputation, ZK-KYC system |
 | ⚡ [Advanced AI](docs/ADVANCED_AI.md) | Quantum AI, Knowledge Graph, World Model, Safety, Auditor, Distributed Training |
-| 🚀 [Super Canggih Tech](docs/SUPER_CANGGIH_TECH.md) | 17 world-first innovations: QNE, HAGI, SymbioNet, EvoSwarm, PrediCausality, more |
+| 🚀 [Super Advanced Tech](docs/SUPER_ADVANCED_TECH.md) | 17 world-first innovations: QNE, HAGI, SymbioNet, EvoSwarm, PrediCausality, more |
 | 📡 [API Reference](docs/API_REFERENCE.md) | Developer API documentation |
 | 🤝 [Contributing](docs/CONTRIBUTING.md) | How to contribute |
 
@@ -553,7 +553,7 @@ const round = await fl.executeRound('fedavg', 1.0);
 | TypeScript Modules | 50 |
 | Smart Contracts (Solidity) | 5 |
 | Documentation Pages | 13 |
-| AI Modules | 35 (18 core + 17 super canggih) |
+| AI Modules | 35 (18 core + 17 super advanced) |
 | AI Agents | 5,000 |
 | Type Definitions | 200+ |
 | Security Layers | 7 |
