@@ -1,7 +1,7 @@
 /**
- * PiNexus Core v0.3.0 — Entry Point
+ * PiNexus Core v0.4.0 — Entry Point
  * The Ultimate Decentralized AGI-Powered Ecosystem
- * Hybrid Dual Coin System: $PNX + PiNEX (USD-pegged stablecoin)
+ * Hybrid Dual Coin System: $PNX + $PiNEX (USD-pegged stablecoin)
  */
 
 // ── Blockchain Layer ──
@@ -16,12 +16,28 @@ export { TransformerEngine } from './agi-engine/core/transformer';
 
 // ── AGI Engine — Training ──
 export { RLHFEngine } from './agi-engine/training/rlhf';
+export { DistributedTrainingEngine } from './agi-engine/training/distributed';
 
 // ── AGI Engine — RAG ──
 export { RAGEngine } from './agi-engine/rag/engine';
 
 // ── AGI Engine — Multi-Modal ──
 export { MultiModalEngine } from './agi-engine/multimodal/engine';
+
+// ── AGI Engine — Quantum AI ──
+export { QuantumNeuralNetwork } from './agi-engine/quantum/qnn';
+
+// ── AGI Engine — Knowledge Graph ──
+export { KnowledgeGraphEngine } from './agi-engine/knowledge/graph';
+
+// ── AGI Engine — World Model ──
+export { WorldModelEngine } from './agi-engine/world-model/engine';
+
+// ── AGI Engine — Safety & Alignment ──
+export { AISafetyFramework } from './agi-engine/safety/framework';
+
+// ── AGI Engine — Code Auditor ──
+export { AutonomousCodeAuditor } from './agi-engine/auditor/engine';
 
 // ── AGI Engine — Federated Learning ──
 export { FederatedLearningEngine } from './agi-engine/federated/engine';
@@ -58,9 +74,9 @@ export { InterplanetaryProtocol } from './services/interplanetary/protocol';
 export * from './types';
 
 // ── Constants ──
-export const VERSION = '0.3.0-alpha';
+export const VERSION = '0.4.0-alpha';
 export const NETWORK = 'pinexus-testnet';
-export const DUAL_COINS = { utility: 'PNX', stable: 'PiNEX' };
+export const DUAL_COINS = { utility: '$PNX', stable: '$PiNEX' };
 export const AI_CAPABILITIES = [
   'transformer_inference',
   'rlhf_training',
@@ -74,13 +90,19 @@ export const AI_CAPABILITIES = [
   'agent_framework',
   'self_development',
   'neural_mining',
+  'quantum_neural_network',
+  'knowledge_graph',
+  'world_model',
+  'ai_safety',
+  'code_auditor',
+  'distributed_training',
 ] as const;
 
 console.log(`
-╔═══════════════════════════════════════════════════════╗
-║              PiNexus Core v${VERSION}               ║
-║       The Ultimate Decentralized AGI Economy          ║
-║       Hybrid Dual Coin: $PNX + PiNEX (USD peg)       ║
-║       ${AI_CAPABILITIES.length} AI Capabilities • 5000 Agents • Self-Evolving  ║
-╚═══════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════╗
+║                PiNexus Core v${VERSION}                  ║
+║         The Ultimate Decentralized AGI Economy             ║
+║         Hybrid Dual Coin: $PNX + $PiNEX (USD peg)         ║
+║         ${AI_CAPABILITIES.length} AI Capabilities • 5000 Agents • Self-Evolving    ║
+╚════════════════════════════════════════════════════════════╝
 `);

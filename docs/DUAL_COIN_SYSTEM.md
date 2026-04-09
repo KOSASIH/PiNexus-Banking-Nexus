@@ -7,14 +7,14 @@ The PiNexus Hybrid Dual Coin System creates a symbiotic relationship between two
 | Token | Symbol | Type | Purpose |
 |-------|--------|------|---------|
 | PiNexus Token | **$PNX** | Volatile / Utility | Governance, staking, compute, mining rewards |
-| PiNexus Stablecoin | **PiNEX** | Stable (1:1 USD) | Payments, settlements, DeFi collateral |
+| PiNexus Stablecoin | **$PiNEX** | Stable (1:1 USD) | Payments, settlements, DeFi collateral |
 
 ```
 ┌───────────────────────────────────────────────────────────────────┐
 │                   HYBRID DUAL COIN SYSTEM                         │
 │                                                                    │
 │  ╔═══════════════════╗     SWAP ENGINE     ╔═══════════════════╗  │
-│  ║     $PNX          ║ ◄═══════════════► ║     PiNEX         ║  │
+│  ║     $PNX          ║ ◄═══════════════► ║     $PiNEX         ║  │
 │  ║  Utility Token     ║    AGI Arbitrage    ║  Stablecoin       ║  │
 │  ║                    ║    TWAP Pricing     ║                    ║  │
 │  ║  • Governance      ║    Anti-Manipulation ║  • 1:1 USD Peg    ║  │
@@ -38,15 +38,15 @@ The PiNexus Hybrid Dual Coin System creates a symbiotic relationship between two
 
 ---
 
-## PiNEX Stablecoin
+## $PiNEX Stablecoin
 
 ### Stability Mechanism: Hybrid Algorithmic + Collateral
 
-PiNEX uses a **dual-mechanism** approach combining the best of collateral-backed (like DAI) and algorithmic (like FRAX) stablecoins:
+$PiNEX uses a **dual-mechanism** approach combining the best of collateral-backed (like DAI) and algorithmic (like FRAX) stablecoins:
 
 #### 1. Collateral Vaults
 
-Users deposit accepted collateral to mint PiNEX:
+Users deposit accepted collateral to mint $PiNEX:
 
 | Parameter | Value |
 |-----------|-------|
@@ -67,16 +67,16 @@ Users deposit accepted collateral to mint PiNEX:
 
 The AGI engine monitors the peg and adjusts supply:
 
-- **Above peg (>$1.005)**: Mint new PiNEX, add to Stability Pool
+- **Above peg (>$1.005)**: Mint new $PiNEX, add to Stability Pool
   - Maximum expansion: 3% of supply per epoch
   - Requires 3 consecutive above-peg observations
-- **Below peg (<$0.995)**: Buy back and burn PiNEX from Stability Pool
+- **Below peg (<$0.995)**: Buy back and burn $PiNEX from Stability Pool
   - Maximum contraction: 3% of pool per epoch
   - Requires 3 consecutive below-peg observations
 
 #### 3. Stability Pool
 
-- Funded by PiNEX stakers who earn yield
+- Funded by $PiNEX stakers who earn yield
 - Acts as liquidation buffer
 - Receives expansion mints (distributed to depositors)
 - Absorbs bad debt from under-collateralized vaults
@@ -99,7 +99,7 @@ Emergency mechanism when peg deviation exceeds 5%:
 
 ---
 
-## Swap Engine (PNX ↔ PiNEX)
+## Swap Engine (PNX ↔ $PiNEX)
 
 ### Pricing
 
@@ -129,8 +129,8 @@ interface ArbitrageConfig {
   maxPosition: 10M PNX, // Maximum position size
   enabled: true,
   // Automatically:
-  // - PiNEX overvalued → sell PiNEX, buy PNX (increases PNX demand)
-  // - PiNEX undervalued → buy PiNEX, sell PNX (restores peg)
+  // - $PiNEX overvalued → sell $PiNEX, buy PNX (increases PNX demand)
+  // - $PiNEX undervalued → buy $PiNEX, sell PNX (restores peg)
 }
 ```
 
@@ -144,10 +144,10 @@ interface ArbitrageConfig {
 |----------|-------------|
 | `openVault()` | Create a collateral vault |
 | `depositCollateral(token, amount)` | Deposit collateral into vault |
-| `mintPiNEX(amount)` | Mint PiNEX against collateral |
-| `redeemPiNEX(amount)` | Burn PiNEX and reclaim collateral |
+| `mintPiNEX(amount)` | Mint $PiNEX against collateral |
+| `redeemPiNEX(amount)` | Burn $PiNEX and reclaim collateral |
 | `liquidateVault(owner)` | Liquidate under-collateralized vault |
-| `depositToStabilityPool(amount)` | Stake PiNEX in stability pool |
+| `depositToStabilityPool(amount)` | Stake $PiNEX in stability pool |
 | `withdrawFromStabilityPool(amount)` | Withdraw from stability pool |
 | `updatePrice(newPrice)` | AGI oracle price update |
 | `executeAlgorithmicRebalance()` | Trigger supply expansion/contraction |
@@ -157,8 +157,8 @@ interface ArbitrageConfig {
 
 | Function | Description |
 |----------|-------------|
-| `swapPNXtoPiNEX(amount)` | Swap $PNX → PiNEX |
-| `swapPiNEXtoPNX(amount)` | Swap PiNEX → $PNX |
+| `swapPNXtoPiNEX(amount)` | Swap $PNX → $PiNEX |
+| `swapPiNEXtoPNX(amount)` | Swap $PiNEX → $PNX |
 | `updatePNXRate(newRate)` | Update PNX/USD rate |
 | `getTWAP()` | Get time-weighted average price |
 | `executeAGIArbitrage()` | Execute AGI arbitrage |
@@ -172,16 +172,16 @@ interface ArbitrageConfig {
 
 ### PNX Deflationary Pressure
 
-1. **Staking Lock**: PNX locked as collateral for PiNEX minting
+1. **Staking Lock**: PNX locked as collateral for $PiNEX minting
 2. **Burn Tax**: 1% burn on all PNX transfers
 3. **Swap Fees**: 50% of fees used for PNX buyback and burn
 4. **Governance Lock**: Voting requires locked PNX
 
-### PiNEX Supply Control
+### $PiNEX Supply Control
 
 - **Elastic Supply**: Expands/contracts based on demand and peg status
 - **Hard Cap**: No fixed cap (supply is demand-driven, controlled by collateral)
-- **Fully Backed**: Every PiNEX is backed by ≥150% collateral value
+- **Fully Backed**: Every $PiNEX is backed by ≥150% collateral value
 
 ---
 

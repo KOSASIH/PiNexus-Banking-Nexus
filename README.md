@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/PiNexus-v0.3.0--alpha-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01ek0yIDE3bDEwIDUgMTAtNS0xMC01LTEwIDV6TTIgMTJsMTAgNSAxMC01LTEwLTUtMTAgNXoiLz48L3N2Zz4=" alt="PiNexus"/>
+  <img src="https://img.shields.io/badge/PiNexus-v0.4.0--alpha-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJMMiA3bDEwIDUgMTAtNS0xMC01ek0yIDE3bDEwIDUgMTAtNS0xMC01LTEwIDV6TTIgMTJsMTAgNSAxMC01LTEwLTUtMTAgNXoiLz48L3N2Zz4=" alt="PiNexus"/>
 </p>
 
 <h1 align="center">🌐 PiNexus</h1>
@@ -8,14 +8,14 @@
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
   <img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"/>
-  <img src="https://img.shields.io/badge/version-0.3.0--alpha-blue.svg" alt="Version"/>
+  <img src="https://img.shields.io/badge/version-0.4.0--alpha-blue.svg" alt="Version"/>
   <img src="https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/Solidity-^0.8.20-363636?logo=solidity&logoColor=white" alt="Solidity"/>
-  <img src="https://img.shields.io/badge/AI_Modules-12-purple.svg" alt="AI Modules"/>
+  <img src="https://img.shields.io/badge/AI_Modules-18-purple.svg" alt="AI Modules"/>
   <img src="https://img.shields.io/badge/Dual_Coin-PNX_+_PiNEX-gold.svg" alt="Dual Coin"/>
   <img src="https://img.shields.io/badge/Agents-5000-red.svg" alt="Agents"/>
-  <img src="https://img.shields.io/badge/Files-50-informational.svg" alt="Files"/>
-  <img src="https://img.shields.io/badge/Lines_of_Code-10%2C131-informational.svg" alt="Lines of Code"/>
+  <img src="https://img.shields.io/badge/Files-57-informational.svg" alt="Files"/>
+  <img src="https://img.shields.io/badge/Lines_of_Code-13%2C592-informational.svg" alt="Lines of Code"/>
 </p>
 
 <p align="center">
@@ -26,6 +26,7 @@
   <a href="docs/SECURITY.md">🔒 Security</a> •
   <a href="docs/GOVERNANCE.md">🏛️ Governance</a> •
   <a href="docs/IDENTITY.md">🪪 Identity</a> •
+  <a href="docs/ADVANCED_AI.md">⚡ Advanced AI</a> •
   <a href="docs/API_REFERENCE.md">📡 API</a>
 </p>
 
@@ -35,7 +36,7 @@
 
 **PiNexus** is a revolutionary blockchain platform integrating **super-advanced AGI (Artificial General Intelligence)** and **5,000 God-level Autonomous AI Agents** operating 24/7 to create a self-sustaining, hyper-intelligent global economy.
 
-It combines decentralized finance (DeFi), AI-driven automation, real-world asset tokenization, and a **Hybrid Dual Coin System ($PNX + PiNEX stablecoin)** — all secured by quantum-resistant cryptography — to onboard **1 billion users** and generate trillions in value.
+It combines decentralized finance (DeFi), AI-driven automation, real-world asset tokenization, and a **Hybrid Dual Coin System ($PNX + $PiNEX stablecoin)** — all secured by quantum-resistant cryptography — to onboard **1 billion users** and generate trillions in value.
 
 > **Vision**: Build the world's first **AGI-Nexus** — where human ingenuity meets god-like AI autonomy, creating infinite economic opportunities without central control.
 
@@ -46,10 +47,10 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 | Metric | Value |
 |--------|-------|
 | 🤖 AI Agents | 5,000 autonomous super-agents (6 types, 24 sub-types) |
-| 🧠 AI Modules | 12 cutting-edge capabilities |
+| 🧠 AI Modules | 18 cutting-edge capabilities (incl. Quantum AI, World Model, Safety) |
 | ⚡ Throughput | 1M+ TPS via AGI-dynamic sharding |
 | 🔐 Security | 7-layer defense + post-quantum cryptography |
-| 💰 Dual Coins | $PNX (utility) + PiNEX (USD stablecoin) |
+| 💰 Dual Coins | $PNX (utility) + $PiNEX (USD stablecoin) |
 | 📜 Smart Contracts | 5 auditable Solidity contracts |
 | 🏛️ Governance | Multi-mechanism DAO with Constitutional AI |
 | 🌍 Scale Target | 1 billion users within 5 years |
@@ -75,7 +76,7 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 </tr>
 <tr>
 <td>PiNexus Stablecoin</td>
-<td><strong>PiNEX</strong></td>
+<td><strong>$PiNEX</strong></td>
 <td>Stablecoin</td>
 <td>1:1 USD</td>
 <td>Payments, settlements, DeFi collateral, cross-border</td>
@@ -86,7 +87,7 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     PiNEX STABILITY STACK                        │
+│                     $PiNEX STABILITY STACK                        │
 │                                                                  │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐  │
 │  │  Collateral   │  │  Algorithmic  │  │   AGI Oracle         │  │
@@ -116,7 +117,7 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 
 ---
 
-## 🧠 AI Engine — 12 Capabilities
+## 🧠 AI Engine — 18 Capabilities
 
 ### Core AI Infrastructure
 
@@ -129,18 +130,29 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 | 5 | **🌐 Federated Learning** | FedAvg/FedProx/SCAFFOLD, (ε,δ)-differential privacy, Krum Byzantine filtering, secure aggregation (Shamir/Paillier/MPC), $PNX rewards | ✅ Implemented |
 | 6 | **🤖 Agent Framework** | ReAct loop, 3-tier memory (short/long/episodic), dynamic planning with revision, tool use, multi-agent collaboration | ✅ Implemented |
 
-### Advanced AI Services
+### Super-Advanced AI (NEW in v0.4.0)
 
 | # | Module | Key Features | Status |
 |---|--------|-------------|--------|
-| 7 | **⛏️ Neural Mining** | Proof-of-Intelligence, ZK computation proofs, dynamic difficulty | ✅ Implemented |
-| 8 | **🧬 Self-Development** | Genetic evolution, Neural Architecture Search (15 archs), self-healing (12 components), adversarial testing (18 vectors), meta-learning | ✅ Implemented |
-| 9 | **🐝 Swarm Orchestrator** | 5000 agent coordination, priority-based allocation, load balancing | ✅ Implemented |
-| 10 | **📈 Predictive Markets** | Binary/scalar/categorical, AGI-powered odds, LMSR AMM | ✅ Implemented |
-| 11 | **🏪 AI Marketplace** | Trade models, datasets, compute nodes for $PNX | ✅ Implemented |
-| 12 | **💻 Code Intelligence** | Generate, debug, optimize, translate, review, test gen across TypeScript, Python, Rust, Go, Solidity, Java, C++, Ruby | ✅ Implemented |
+| 7 | **⚛️ Quantum Neural Network** | VQE, QAOA, parameterized quantum circuits, quantum kernel methods, error correction (Surface/Steane/Shor codes), ZNE/PEC error mitigation, multi-backend (IBM/Google/IonQ) | ✅ Implemented |
+| 8 | **🕸️ Knowledge Graph Engine** | Neuro-symbolic AI, GNN embeddings (GAT/GCN/R-GCN/CompGCN), multi-hop reasoning, causal inference (do-calculus), link prediction, temporal knowledge graphs | ✅ Implemented |
+| 9 | **🌍 World Model Engine** | Dreamer v3 (RSSM), imagination-based planning, counterfactual reasoning, game theory simulation, economic stress testing, anomaly detection via prediction error | ✅ Implemented |
+| 10 | **🛡️ AI Safety & Alignment** | Sparse autoencoders (16K features), circuit analysis, red team automation (10 attack types), scalable oversight (debate/RRM), multi-framework ethics, OOD detection, corrigibility enforcement | ✅ Implemented |
+| 11 | **🔍 Code Auditor** | Static analysis, symbolic execution (Z3), formal verification, coverage-guided fuzzing, gas optimization, auto-fix with proof of correctness, 8+ vulnerability detectors | ✅ Implemented |
+| 12 | **🏋️ Distributed Training** | 4D parallelism (DP+TP+PP+EP), ZeRO-3/FSDP, FP8/BF16, elastic training (auto-scale on failure), Population Based Training, curriculum learning, 6 optimizers (AdamW/Lion/Sophia/CAME/Shampoo) | ✅ Implemented |
 
-📖 [Full AI Engine Technical Reference →](docs/AI_ENGINE.md)
+### AI Services
+
+| # | Module | Key Features | Status |
+|---|--------|-------------|--------|
+| 13 | **⛏️ Neural Mining** | Proof-of-Intelligence, ZK computation proofs, dynamic difficulty | ✅ Implemented |
+| 14 | **🧬 Self-Development** | Genetic evolution, Neural Architecture Search (15 archs), self-healing (12 components), adversarial testing (18 vectors), meta-learning | ✅ Implemented |
+| 15 | **🐝 Swarm Orchestrator** | 5000 agent coordination, priority-based allocation, load balancing | ✅ Implemented |
+| 16 | **📈 Predictive Markets** | Binary/scalar/categorical, AGI-powered odds, LMSR AMM | ✅ Implemented |
+| 17 | **🏪 AI Marketplace** | Trade models, datasets, compute nodes for $PNX | ✅ Implemented |
+| 18 | **💻 Code Intelligence** | Generate, debug, optimize, translate, review, test gen across TypeScript, Python, Rust, Go, Solidity, Java, C++, Ruby | ✅ Implemented |
+
+📖 [Core AI Reference →](docs/AI_ENGINE.md) • [Advanced AI Reference →](docs/ADVANCED_AI.md)
 
 ---
 
@@ -206,7 +218,7 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                       PiNexus Ecosystem v0.3.0                         │
+│                       PiNexus Ecosystem v0.4.0                         │
 │                                                                        │
 │  ┌──────────────────┐  ┌──────────────────┐  ┌────────────────────┐   │
 │  │   BLOCKCHAIN      │  │   AGI ENGINE      │  │   SERVICES         │   │
@@ -223,7 +235,7 @@ It combines decentralized finance (DeFi), AI-driven automation, real-world asset
 │  │  ├── PiNEXStable  │  │                   │  │  Autonomous DAO    │   │
 │  │  └── DualCoinSys  │  │  12 AI Modules     │  │  Identity + DID    │   │
 │  │                   │  │  5000 Agents       │  │  Security Fortress │   │
-│  │  $PNX + PiNEX     │  │                   │  │  AI Marketplace    │   │
+│  │  $PNX + $PiNEX     │  │                   │  │  AI Marketplace    │   │
 │  │                   │  │                   │  │  Interplanetary    │   │
 │  └──────────────────┘  └──────────────────┘  └────────────────────┘   │
 └────────────────────────────────────────────────────────────────────────┘
@@ -260,11 +272,12 @@ PiNexus-Banking-Nexus/
 │   ├── ARCHITECTURE.md                       # System architecture & diagrams
 │   ├── TOKENOMICS.md                         # Token economics & distribution
 │   ├── AI_ENGINE.md                          # AI engine technical reference
-│   ├── DUAL_COIN_SYSTEM.md                   # PNX + PiNEX specification
+│   ├── DUAL_COIN_SYSTEM.md                   # PNX + $PiNEX specification
 │   ├── SECURITY.md                           # 7-layer security architecture
 │   ├── GOVERNANCE.md                         # DAO & governance specification
 │   ├── IDENTITY.md                           # DID & reputation system
 │   ├── API_REFERENCE.md                      # Developer API reference
+│   ├── ADVANCED_AI.md                        # Advanced AI modules reference (v0.4.0)
 │   └── CONTRIBUTING.md                       # Contribution guidelines
 │
 ├── ⛓️ src/blockchain/                        # Blockchain core layer
@@ -277,15 +290,26 @@ PiNexus-Banking-Nexus/
 │       ├── PNXToken.sol                      #   $PNX ERC-20 utility token (1% burn tax)
 │       ├── PNXStaking.sol                    #   Validator staking & delegation
 │       ├── PNXGovernance.sol                 #   Quadratic voting + AGI analysis
-│       ├── PiNEXStablecoin.sol               #   PiNEX stablecoin (hybrid 1:1 USD peg)
-│       └── HybridDualCoinSystem.sol          #   PNX↔PiNEX swap engine
+│       ├── PiNEXStablecoin.sol               #   $PiNEX stablecoin (hybrid 1:1 USD peg)
+│       └── HybridDualCoinSystem.sol          #   PNX↔$PiNEX swap engine
 │
 ├── 🧠 src/agi-engine/                        # AGI/AI engine (12 capabilities)
 │   ├── core/
 │   │   ├── agi-core.ts                       # Super AGI Core (MoE architecture)
 │   │   └── transformer.ts                    # Full transformer engine (Flash Attn v3)
 │   ├── training/
-│   │   └── rlhf.ts                           # RLHF: PPO + DPO + Constitutional AI
+│   │   ├── rlhf.ts                           # RLHF: PPO + DPO + Constitutional AI
+│   │   └── distributed.ts                    # Distributed training (4D parallelism, elastic)
+│   ├── quantum/
+│   │   └── qnn.ts                            # Quantum Neural Network (VQE, QAOA, QEC)
+│   ├── knowledge/
+│   │   └── graph.ts                          # Knowledge Graph (GNN, causal inference)
+│   ├── world-model/
+│   │   └── engine.ts                         # World Model (Dreamer v3, counterfactual)
+│   ├── safety/
+│   │   └── framework.ts                      # AI Safety (interpretability, red team, ethics)
+│   ├── auditor/
+│   │   └── engine.ts                         # Code Auditor (static, symbolic, fuzzing)
 │   ├── rag/
 │   │   └── engine.ts                         # RAG: hybrid search, multi-hop, anti-hallucination
 │   ├── multimodal/
@@ -303,7 +327,7 @@ PiNexus-Banking-Nexus/
 │       └── engine.ts                         # Self-evolution (7 capabilities)
 │
 ├── ⚙️ src/services/                          # Platform services layer
-│   ├── dual-coin/service.ts                  # PNX↔PiNEX service layer
+│   ├── dual-coin/service.ts                  # PNX↔$PiNEX service layer
 │   ├── defi/engine.ts                        # DeFi 2.0 (vaults, AMM, lending)
 │   ├── rwa/nexus.ts                          # Real-world asset tokenization
 │   ├── metaverse/engine.ts                   # Metaverse engine (procedural generation)
@@ -321,7 +345,7 @@ PiNexus-Banking-Nexus/
 └── 🚀 src/index.ts                           # Main entry point & exports
 ```
 
-**50 files** • **10,131 lines of code** • **31 TypeScript** • **5 Solidity** • **11 Markdown**
+**57 files** • **13,592 lines of code** • **37 TypeScript** • **5 Solidity** • **12 Markdown**
 
 ---
 
@@ -337,7 +361,7 @@ PiNexus-Banking-Nexus/
 
 - **Total Supply**: 100 Trillion $PNX (deflationary)
 - **Burn Mechanism**: 1% transaction tax → AGI upgrades + token burns
-- **PiNEX Integration**: PNX is the primary collateral for minting PiNEX stablecoin
+- **$PiNEX Integration**: PNX is the primary collateral for minting $PiNEX stablecoin
 - **Staking APY**: Variable, based on network participation
 
 📖 [Full Tokenomics →](docs/TOKENOMICS.md)
@@ -348,7 +372,7 @@ PiNexus-Banking-Nexus/
 
 | Phase | Timeline | Milestones |
 |-------|----------|------------|
-| **Phase 0: Genesis** 🌱 | Q4 2024 | Testnet launch, 100 AI agents, PiNEX stablecoin, core DeFi |
+| **Phase 0: Genesis** 🌱 | Q4 2024 | Testnet launch, 100 AI agents, $PiNEX stablecoin, core DeFi |
 | **Phase 1: Awakening** ⚡ | Q1 2025 | Mainnet, 1,000 agents, Dual Coin live, 10M users |
 | **Phase 2: Swarm** 🐝 | Q3 2025 | 5,000 agents, Metaverse, RWA marketplace, federated network |
 | **Phase 3: Singularity** 🧠 | 2026 | AGI self-evolution, global UBI, AI marketplace, 1B users |
@@ -435,10 +459,11 @@ const round = await fl.executeRound('fedavg', 1.0);
 | 🏗️ [Architecture](docs/ARCHITECTURE.md) | System design & component diagrams |
 | 💎 [Tokenomics](docs/TOKENOMICS.md) | Token economics & distribution model |
 | 🧠 [AI Engine](docs/AI_ENGINE.md) | Complete AI/ML technical reference (12 modules) |
-| 💰 [Dual Coin System](docs/DUAL_COIN_SYSTEM.md) | PNX + PiNEX specification |
+| 💰 [Dual Coin System](docs/DUAL_COIN_SYSTEM.md) | PNX + $PiNEX specification |
 | 🔒 [Security](docs/SECURITY.md) | 7-layer defense-in-depth architecture |
 | 🏛️ [Governance](docs/GOVERNANCE.md) | DAO, voting mechanisms, constitution |
 | 🪪 [Identity](docs/IDENTITY.md) | DID, reputation, ZK-KYC system |
+| ⚡ [Advanced AI](docs/ADVANCED_AI.md) | Quantum AI, Knowledge Graph, World Model, Safety, Auditor, Distributed Training |
 | 📡 [API Reference](docs/API_REFERENCE.md) | Developer API documentation |
 | 🤝 [Contributing](docs/CONTRIBUTING.md) | How to contribute |
 
@@ -448,12 +473,12 @@ const round = await fl.executeRound('fedavg', 1.0);
 
 | Metric | Count |
 |--------|-------|
-| Source Files | 50 |
-| Lines of Code | 10,131 |
-| TypeScript Modules | 31 |
+| Source Files | 57 |
+| Lines of Code | 13,592 |
+| TypeScript Modules | 37 |
 | Smart Contracts (Solidity) | 5 |
-| Documentation Pages | 10 |
-| AI Modules | 12 |
+| Documentation Pages | 12 |
+| AI Modules | 18 |
 | AI Agents | 5,000 |
 | Type Definitions | 200+ |
 | Security Layers | 7 |
