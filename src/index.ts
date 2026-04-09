@@ -1,14 +1,19 @@
 /**
- * PiNexus Core v0.4.0 — Entry Point
+ * PiNexus Core v0.5.0 — Entry Point
  * The Ultimate Decentralized AGI-Powered Ecosystem
+ * Super Canggih Technologies for Unrivaled Supremacy
  * Hybrid Dual Coin System: $PNX + $PiNEX (USD-pegged stablecoin)
  */
 
 // ── Blockchain Layer ──
 export { PiNexusChain } from './blockchain/chain';
 export { ProofOfIntelligence } from './blockchain/consensus/poi';
+export { QuantumProofOfIntelligence } from './blockchain/consensus/q-poi';
 export { QuantumCrypto } from './blockchain/crypto/quantum';
+export { ZKHolographicProofs } from './blockchain/crypto/zk-holo';
 export { DynamicShardManager } from './blockchain/sharding/manager';
+export { FractalShardingV2 } from './blockchain/sharding/fractal-v2';
+export { TemporalBlockchain } from './blockchain/temporal/engine';
 
 // ── AGI Engine — Core ──
 export { SuperAGICore } from './agi-engine/core/agi-core';
@@ -26,6 +31,7 @@ export { MultiModalEngine } from './agi-engine/multimodal/engine';
 
 // ── AGI Engine — Quantum AI ──
 export { QuantumNeuralNetwork } from './agi-engine/quantum/qnn';
+export { QuantumNeuralEntanglement } from './agi-engine/quantum/entanglement';
 
 // ── AGI Engine — Knowledge Graph ──
 export { KnowledgeGraphEngine } from './agi-engine/knowledge/graph';
@@ -41,6 +47,12 @@ export { AutonomousCodeAuditor } from './agi-engine/auditor/engine';
 
 // ── AGI Engine — Federated Learning ──
 export { FederatedLearningEngine } from './agi-engine/federated/engine';
+
+// ── AGI Engine — Super Canggih (World-First Innovations) ──
+export { HoloVerseAGI } from './agi-engine/holographic/hagi';
+export { SymbioNetEngine } from './agi-engine/symbionet/engine';
+export { EvoSwarmDynamics } from './agi-engine/evoswarm/engine';
+export { PrediCausalityEngine } from './agi-engine/predicausality/engine';
 
 // ── AGI Engine — Agents ──
 export { SwarmOrchestrator } from './agi-engine/swarm/orchestrator';
@@ -70,13 +82,48 @@ export { SecurityFortress } from './services/security/fortress';
 export { AIMarketplace } from './services/marketplace/ai-marketplace';
 export { InterplanetaryProtocol } from './services/interplanetary/protocol';
 
+// ── Super Canggih Services ──
+export { AGISentinelShields, QuantumSoulBinding } from './services/security/sentinel';
+export { NeuralVerseGenerator, HyperRWAOracle } from './services/metaverse/neuralverse';
+export { InfiniteYieldAGI, CarbonNegativeMining } from './services/sustainability/green-mining';
+
+// ── Edge AI & IoT ──
+export { NanoAGIChipManager, SwarmEdgeNetwork } from './edge/swarm-edge';
+
 // ── Types ──
 export * from './types';
 
 // ── Constants ──
-export const VERSION = '0.4.0-alpha';
+export const VERSION = '0.5.0-alpha';
 export const NETWORK = 'pinexus-testnet';
 export const DUAL_COINS = { utility: '$PNX', stable: '$PiNEX' };
+export const SUPER_CANGGIH_TECHNOLOGIES = [
+  // Quantum-Enhanced AGI
+  'quantum_neural_entanglement',
+  'quantum_proof_of_intelligence',
+  // Novel AGI Architectures
+  'holoverse_agi',
+  'symbionet_human_ai_symbiosis',
+  'evoswarm_dynamics',
+  'predicausality_engine',
+  // Super Blockchain
+  'fractal_sharding_v2',
+  'zk_holographic_proofs',
+  'temporal_blockchain',
+  // Edge AI & IoT
+  'nano_agi_chips',
+  'swarm_edge_network',
+  // Revolutionary Security
+  'agi_sentinel_shields',
+  'quantum_soul_binding',
+  // Metaverse & RWA
+  'neuralverse_generator',
+  'hyper_rwa_oracle',
+  // Economic & Sustainability
+  'infinite_yield_agi',
+  'carbon_negative_mining',
+] as const;
+
 export const AI_CAPABILITIES = [
   'transformer_inference',
   'rlhf_training',
@@ -96,13 +143,16 @@ export const AI_CAPABILITIES = [
   'ai_safety',
   'code_auditor',
   'distributed_training',
+  ...SUPER_CANGGIH_TECHNOLOGIES,
 ] as const;
 
 console.log(`
-╔════════════════════════════════════════════════════════════╗
-║                PiNexus Core v${VERSION}                  ║
-║         The Ultimate Decentralized AGI Economy             ║
-║         Hybrid Dual Coin: $PNX + $PiNEX (USD peg)         ║
-║         ${AI_CAPABILITIES.length} AI Capabilities • 5000 Agents • Self-Evolving    ║
-╚════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════╗
+║                 PiNexus Core v${VERSION}                    ║
+║          The Ultimate Decentralized AGI Economy               ║
+║          Hybrid Dual Coin: $PNX + $PiNEX (USD peg)           ║
+║          ${AI_CAPABILITIES.length} AI Capabilities • 5000 Agents • Self-Evolving      ║
+║          ${SUPER_CANGGIH_TECHNOLOGIES.length} Super Canggih World-First Innovations          ║
+║          🚀 The Singularity Starts Here                       ║
+╚═══════════════════════════════════════════════════════════════╝
 `);
