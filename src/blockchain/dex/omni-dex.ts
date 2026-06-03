@@ -343,10 +343,10 @@ export class OmniDEX {
 
   private _initializeCorePairs(): void {
     const corePairs = [
-      { base: 'PNX', quote: 'USDT', chainId: 314159 },
+      { base: 'PNX', quote: 'USDT', chainId: 1618033 },
       { base: 'ETH', quote: 'USDT', chainId: 1 },
-      { base: 'BTC', quote: 'USDT', chainId: 314159 },
-      { base: 'PNX', quote: 'ETH', chainId: 314159 },
+      { base: 'BTC', quote: 'USDT', chainId: 1618033 },
+      { base: 'PNX', quote: 'ETH', chainId: 1618033 },
       { base: 'SOL', quote: 'USDT', chainId: 'solana' },
       { base: 'DOT', quote: 'USDT', chainId: 'polkadot' },
     ];
