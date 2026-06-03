@@ -1,8 +1,8 @@
 /**
- * PiNexus Core v0.5.0 — Entry Point
+ * PiNexus Core v0.8.0 — Entry Point
  * The Ultimate Decentralized AGI-Powered Ecosystem
- * Super Advanced Technologies for Unrivaled Supremacy
- * Hybrid Dual Coin System: $PNX + $PiNEX (USD-pegged stablecoin)
+ * Absolute Super Intelligence × 1000 Chains × Interplanetary Consensus
+ * Chain ID: 1618033 (Golden Ratio φ) | Hybrid Dual Coin: $PNX + $PiNEX
  */
 
 // ── Blockchain Layer ──
@@ -98,7 +98,21 @@ export { OmegaPredictionMatrix } from './agi-engine/omega/matrix';
 export { AutonomousRnDEngine } from './agi-engine/autonomous-rnd/engine';
 export { CognitiveArchitectureEngine } from './agi-engine/cognitive-arch/engine';
 
-// ── ASI v2: Hyper-Intelligence Extensions ──
+// ── ASI Tier III: Transcendent Intelligence (v0.8) ──
+export { QuantumMindEngine } from './agi-engine/quantum-mind/engine';
+export { InfiniteKnowledgeSynthesizer } from './agi-engine/infinite-knowledge/engine';
+export { MultiverseSimulationEngine } from './agi-engine/multiverse-sim/engine';
+export { OmegaSelfEvolutionEngine } from './agi-engine/omega-evolution/engine';
+
+// ── Governance + Identity + Interplanetary (v0.8) ──
+export { AIGovernanceProtocol } from './blockchain/governance/ai-governance';
+export { UniversalDIDProtocol } from './blockchain/did/universal-did';
+export { InterplanetaryConsensus } from './blockchain/interplanetary/consensus';
+
+// ── Platform Services (v0.8) ──
+export { AgentMarketplace } from './services/marketplace/agent-marketplace';
+
+
 export { TemporalSelfAwarenessEngine } from './agi-engine/temporal-asi/engine';
 export { OmegaConvergenceEngine } from './agi-engine/omega-convergence/engine';
 export { HyperspaceReasoningEngine } from './agi-engine/hyperspace-reasoning/engine';
@@ -124,7 +138,9 @@ export { ZKMLTrainingEngine } from './services/zkml/training';
 export * from './types';
 
 // ── Constants ──
-export const VERSION = '0.7.0-alpha';
+export const VERSION = '0.8.0-alpha';
+export const CHAIN_ID = 1618033;       // PiNexus Mainnet φ (Golden Ratio)
+export const CHAIN_NAME = 'PiNexus Mainnet Golden';
 export const NETWORK = 'pinexus-testnet';
 export const DUAL_COINS = { utility: '$PNX', stable: '$PiNEX' };
 export const SUPER_ADVANCED_TECHNOLOGIES = [
