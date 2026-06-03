@@ -215,11 +215,11 @@ export class AutonomousTreasury {
 
   private _initializeDefaultPortfolio(): void {
     const portfolio: TreasuryAsset[] = [
-      { assetId: 'pnx', symbol: 'PNX', chainId: 314159, balance: BigInt(10e9) * BigInt(1e18), valueUsd: 50_000_000, assetClass: 'native_token', yieldApy: 0, riskScore: 0.5, liquidityHorizon: 0, allocation: 30 },
+      { assetId: 'pnx', symbol: 'PNX', chainId: 1618033, balance: BigInt(10e9) * BigInt(1e18), valueUsd: 50_000_000, assetClass: 'native_token', yieldApy: 0, riskScore: 0.5, liquidityHorizon: 0, allocation: 30 },
       { assetId: 'usdc', symbol: 'USDC', chainId: 1, balance: BigInt(20e6) * BigInt(1e6), valueUsd: 20_000_000, assetClass: 'stablecoin', yieldApy: 4.5, riskScore: 0.05, liquidityHorizon: 0, allocation: 25 },
       { assetId: 'eth', symbol: 'ETH', chainId: 1, balance: BigInt(5000) * BigInt(1e18), valueUsd: 15_000_000, assetClass: 'strategic_reserve', yieldApy: 3.8, riskScore: 0.4, liquidityHorizon: 1, allocation: 20 },
-      { assetId: 'pnx_lp', symbol: 'PNX-USDC-LP', chainId: 314159, balance: BigInt(1e12), valueUsd: 10_000_000, assetClass: 'lp_token', yieldApy: 25, riskScore: 0.6, liquidityHorizon: 1, allocation: 15 },
-      { assetId: 'rwa_bonds', symbol: 'US-T-BOND-RWA', chainId: 314159, balance: BigInt(1e12), valueUsd: 5_000_000, assetClass: 'rwa', yieldApy: 5.2, riskScore: 0.1, liquidityHorizon: 7, allocation: 10 },
+      { assetId: 'pnx_lp', symbol: 'PNX-USDC-LP', chainId: 1618033, balance: BigInt(1e12), valueUsd: 10_000_000, assetClass: 'lp_token', yieldApy: 25, riskScore: 0.6, liquidityHorizon: 1, allocation: 15 },
+      { assetId: 'rwa_bonds', symbol: 'US-T-BOND-RWA', chainId: 1618033, balance: BigInt(1e12), valueUsd: 5_000_000, assetClass: 'rwa', yieldApy: 5.2, riskScore: 0.1, liquidityHorizon: 7, allocation: 10 },
     ];
     for (const a of portfolio) this.assets.set(a.assetId, a);
   }
