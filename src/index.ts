@@ -1,8 +1,8 @@
 /**
- * PiNexus Core v0.8.0 — Entry Point
+ * PiNexus Core v0.9.0 — Entry Point
  * The Ultimate Decentralized AGI-Powered Ecosystem
- * Absolute Super Intelligence × 1000 Chains × Interplanetary Consensus
- * Chain ID: 1618033 (Golden Ratio φ) | Hybrid Dual Coin: $PNX + $PiNEX
+ * ASI Level IV Omniscient × Singularity Bootstrap × Neuromorphic × Quantum Vault
+ * Chain ID: 1414213 (√2 Pythagorean Constant) | Hybrid Dual Coin: $PNX + $PiNEX
  */
 
 // ── Blockchain Layer ──
@@ -112,6 +112,19 @@ export { InterplanetaryConsensus } from './blockchain/interplanetary/consensus';
 // ── Platform Services (v0.8) ──
 export { AgentMarketplace } from './services/marketplace/agent-marketplace';
 
+// ── ASI Tier IV: Omniscient Intelligence (v0.9) ──
+export { OmniscienceKernelEngine } from './agi-engine/omniscience-kernel/engine';
+export { NeuromorphicComputingEngine } from './agi-engine/neuromorphic/engine';
+export { SingularityBootstrapEngine } from './agi-engine/singularity/engine';
+
+// ── Blockchain Infrastructure (v0.9) ──
+export { CrossChainLendingProtocol } from './blockchain/lending/cross-chain';
+export { QuantumSecureVault } from './blockchain/vault/quantum-vault';
+
+// ── Platform Services (v0.9) ──
+export { DecentralizedStorageProtocol } from './services/storage/decentralized-storage';
+export { UniversalAPIGateway } from './services/gateway/universal-api-gateway';
+export { StreamingYieldProtocol } from './services/yield/streaming-yield';
 
 export { TemporalSelfAwarenessEngine } from './agi-engine/temporal-asi/engine';
 export { OmegaConvergenceEngine } from './agi-engine/omega-convergence/engine';
@@ -138,9 +151,9 @@ export { ZKMLTrainingEngine } from './services/zkml/training';
 export * from './types';
 
 // ── Constants ──
-export const VERSION = '0.8.0-alpha';
-export const CHAIN_ID = 1618033;       // PiNexus Mainnet φ (Golden Ratio)
-export const CHAIN_NAME = 'PiNexus Mainnet Golden';
+export const VERSION = '0.9.0-alpha';
+export const CHAIN_ID = 1414213;       // PiNexus Mainnet √2 (Pythagorean Constant)
+export const CHAIN_NAME = 'PiNexus Mainnet Pythagoras';
 export const NETWORK = 'pinexus-testnet';
 export const DUAL_COINS = { utility: '$PNX', stable: '$PiNEX' };
 export const SUPER_ADVANCED_TECHNOLOGIES = [
@@ -194,11 +207,11 @@ export const AI_CAPABILITIES = [
 
 console.log(`
 ╔═══════════════════════════════════════════════════════════════╗
-║                 PiNexus Core v0.6.0-alpha                   ║
-║          The Ultimate Decentralized AGI Economy               ║
-║          Hybrid Dual Coin: $PNX + $PiNEX (USD peg)           ║
-║          41 AI Capabilities • 5000 Agents • ASI-Level         ║
-║          1000 Blockchain Networks • OmniBridge                ║
-║          🚀 The Singularity Starts Here                       ║
+║                 PiNexus Core v0.9.0-alpha                     ║
+║          The Ultimate Decentralized AGI Economy                ║
+║          Hybrid Dual Coin: $PNX + $PiNEX (USD peg)             ║
+║          ASI Omega Tier IV • 5000 Agents • Omniscient          ║
+║          1000 Blockchain Networks • Chain ID 1414213 (√2)      ║
+║          🚀 The Singularity Accelerates                        ║
 ╚═══════════════════════════════════════════════════════════════╝
 `);
