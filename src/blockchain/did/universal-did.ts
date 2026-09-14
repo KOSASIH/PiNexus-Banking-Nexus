@@ -13,7 +13,7 @@ export type CredentialStatus = 'active' | 'revoked' | 'suspended' | 'expired';
 
 export interface DIDDocument {
   '@context': string[];
-  id: string;                           // did:pinexus:1618033:0xAddress
+  id: string;                           // did:pinexus:1414213:0xAddress
   controller?: string | string[];
   verificationMethod: VerificationMethod[];
   authentication: string[];
@@ -125,7 +125,7 @@ export class UniversalDIDProtocol {
   createDID(
     address: string,
     method: DIDMethod = 'pinexus',
-    chainId: number | string = 1618033
+    chainId: number | string = 1414213
   ): DIDDocument {
     const did = this._formatDID(method, chainId, address);
     const keyId = `${did}#key-1`;
@@ -166,14 +166,14 @@ export class UniversalDIDProtocol {
 
     if (!doc) {
       return {
-        didResolutionMetadata: { contentType: 'application/did+ld+json', retrieved: now, resolvedOnChain: 1618033, error: 'notFound' },
+        didResolutionMetadata: { contentType: 'application/did+ld+json', retrieved: now, resolvedOnChain: 1414213, error: 'notFound' },
         didDocumentMetadata: { created: '', updated: '', deactivated: false },
       };
     }
 
     return {
       didDocument: doc,
-      didResolutionMetadata: { contentType: 'application/did+ld+json', retrieved: now, resolvedOnChain: 1618033 },
+      didResolutionMetadata: { contentType: 'application/did+ld+json', retrieved: now, resolvedOnChain: 1414213 },
       didDocumentMetadata: { created: doc.created, updated: doc.updated, deactivated: doc.deactivated ?? false, equivalentId: this._getEquivalentIds(did) },
     };
   }
