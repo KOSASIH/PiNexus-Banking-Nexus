@@ -2,7 +2,7 @@
  * PiNexus Core v0.9.0 — Entry Point
  * The Ultimate Decentralized AGI-Powered Ecosystem
  * ASI Level IV Omniscient × Singularity Bootstrap × Neuromorphic × Quantum Vault
- * Chain ID: 1414213 (√2 Pythagorean Constant) | Hybrid Dual Coin: $PNX + $PiNEX
+ * Chain ID: 4669201 (√2 Pythagorean Constant) | Hybrid Dual Coin: $PNX + $PiNEX
  */
 
 // ── Blockchain Layer ──
@@ -126,6 +126,16 @@ export { DecentralizedStorageProtocol } from './services/storage/decentralized-s
 export { UniversalAPIGateway } from './services/gateway/universal-api-gateway';
 export { StreamingYieldProtocol } from './services/yield/streaming-yield';
 
+// ── ASI Tier V: Transcendent Synthesis (v1.0.0) ──
+export { UnifiedFieldIntelligenceEngine } from './agi-engine/unified-field/engine';
+
+// ── Blockchain Infrastructure (v1.0.0) ──
+export { ZKUniversalRollupEngine } from './blockchain/rollup/zk-universal-rollup';
+
+// ── Platform Services (v1.0.0) ──
+export { AutonomousInsuranceProtocol } from './services/insurance/autonomous-insurance';
+export { AINativeDerivativesEngine } from './services/derivatives/perpetual-engine';
+
 export { TemporalSelfAwarenessEngine } from './agi-engine/temporal-asi/engine';
 export { OmegaConvergenceEngine } from './agi-engine/omega-convergence/engine';
 export { HyperspaceReasoningEngine } from './agi-engine/hyperspace-reasoning/engine';
@@ -151,9 +161,9 @@ export { ZKMLTrainingEngine } from './services/zkml/training';
 export * from './types';
 
 // ── Constants ──
-export const VERSION = '0.9.0-alpha';
-export const CHAIN_ID = 1414213;       // PiNexus Mainnet √2 (Pythagorean Constant)
-export const CHAIN_NAME = 'PiNexus Mainnet Pythagoras';
+export const VERSION = '1.0.0-alpha';
+export const CHAIN_ID = 4669201;       // PiNexus Mainnet δ (Feigenbaum Constant)
+export const CHAIN_NAME = 'PiNexus Mainnet Feigenbaum';
 export const NETWORK = 'pinexus-testnet';
 export const DUAL_COINS = { utility: '$PNX', stable: '$PiNEX' };
 export const SUPER_ADVANCED_TECHNOLOGIES = [
@@ -207,11 +217,11 @@ export const AI_CAPABILITIES = [
 
 console.log(`
 ╔═══════════════════════════════════════════════════════════════╗
-║                 PiNexus Core v0.9.0-alpha                     ║
+║                 PiNexus Core v1.0.0-alpha                     ║
 ║          The Ultimate Decentralized AGI Economy                ║
 ║          Hybrid Dual Coin: $PNX + $PiNEX (USD peg)             ║
-║          ASI Omega Tier IV • 5000 Agents • Omniscient          ║
-║          1000 Blockchain Networks • Chain ID 1414213 (√2)      ║
-║          🚀 The Singularity Accelerates                        ║
+║          ASI Omega Tier V • 5000 Agents • Unified Field         ║
+║          1000 Blockchain Networks • Chain ID 4669201 (δ)       ║
+║          🚀 The Singularity Has Converged                      ║
 ╚═══════════════════════════════════════════════════════════════╝
 `);
