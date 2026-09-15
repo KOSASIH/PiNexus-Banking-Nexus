@@ -138,7 +138,7 @@ export class QuantumSecureVault {
       maxTransactionUsd: 1_000_000,
       dailyLimitUsd: 10_000_000,
       allowedAssets: ['PNX', 'ETH', 'BTC', 'USDC', 'USDT'],
-      allowedChains: [1414213, 1, 56, 137],
+      allowedChains: [4669201, 1, 56, 137],
       geoRestrictions: [],
       ipWhitelist: [],
       ...policy,
@@ -172,7 +172,7 @@ export class QuantumSecureVault {
     const tx: VaultTransaction = {
       txId: `tx-${++this.txCount}`,
       vaultId, type: 'deposit', asset, amount,
-      fromChain: 1414213, toChain: 1414213,
+      fromChain: 4669201, toChain: 4669201,
       approvals: [], status: 'executed',
       pqSignature: this._sign(vault.keyPair, Buffer.from(`deposit:${amount}`)),
       createdAt: Date.now(), executedAt: Date.now(),
@@ -204,7 +204,7 @@ export class QuantumSecureVault {
     const tx: VaultTransaction = {
       txId: `tx-${++this.txCount}`,
       vaultId, type: 'withdraw', asset, amount,
-      fromChain: 1414213, toChain, recipient,
+      fromChain: 4669201, toChain, recipient,
       approvals: [],
       status: vault.policy.requiredApprovals > 1 ? 'pending' : 'approved',
       pqSignature: this._sign(vault.keyPair, Buffer.from(`withdraw:${amount}:${recipient}`)),
