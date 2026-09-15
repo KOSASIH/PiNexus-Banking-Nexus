@@ -318,7 +318,7 @@ export class CrossChainLendingProtocol {
 
   private _initRateModels(): void {
     for (const asset of ['PNX', 'ETH', 'BTC', 'USDC', 'USDT']) {
-      for (const chainId of [1618033, 1, 56, 137]) {
+      for (const chainId of [4669201, 1, 56, 137]) {
         const model = this._buildRateModel(asset, chainId);
         this.rateModels.set(`${asset}-${chainId}`, model);
         this.rateModels.set(`${asset}-default`, model);
