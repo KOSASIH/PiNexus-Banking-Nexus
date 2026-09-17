@@ -2,7 +2,7 @@
  * PiNexus Core v0.9.0 — Entry Point
  * The Ultimate Decentralized AGI-Powered Ecosystem
  * ASI Level IV Omniscient × Singularity Bootstrap × Neuromorphic × Quantum Vault
- * Chain ID: 4669201 (√2 Pythagorean Constant) | Hybrid Dual Coin: $PNX + $PiNEX
+ * Chain ID: 5772156 (√2 Pythagorean Constant) | Hybrid Dual Coin: $PNX + $PiNEX
  */
 
 // ── Blockchain Layer ──
@@ -136,6 +136,18 @@ export { ZKUniversalRollupEngine } from './blockchain/rollup/zk-universal-rollup
 export { AutonomousInsuranceProtocol } from './services/insurance/autonomous-insurance';
 export { AINativeDerivativesEngine } from './services/derivatives/perpetual-engine';
 
+// ── ASI Tier VI: Cosmic Intelligence (v1.1.0) ──
+export { CosmicIntelligenceEngine } from './agi-engine/cosmic-intelligence/engine';
+
+// ── Blockchain Infrastructure (v1.1.0) ──
+export { DeepSpaceRelayNetwork } from './blockchain/deep-space-relay/network';
+
+// ── AGI Engine — Agent Coordination (v1.1.0) ──
+export { UniversalAgentNegotiationProtocol } from './agi-engine/agent-negotiation/protocol';
+
+// ── Platform Services (v1.1.0) ──
+export { SelfReplicatingComputeFabric } from './services/compute-fabric/self-replicating';
+
 export { TemporalSelfAwarenessEngine } from './agi-engine/temporal-asi/engine';
 export { OmegaConvergenceEngine } from './agi-engine/omega-convergence/engine';
 export { HyperspaceReasoningEngine } from './agi-engine/hyperspace-reasoning/engine';
@@ -161,9 +173,9 @@ export { ZKMLTrainingEngine } from './services/zkml/training';
 export * from './types';
 
 // ── Constants ──
-export const VERSION = '1.0.0-alpha';
-export const CHAIN_ID = 4669201;       // PiNexus Mainnet δ (Feigenbaum Constant)
-export const CHAIN_NAME = 'PiNexus Mainnet Feigenbaum';
+export const VERSION = '1.1.0-alpha';
+export const CHAIN_ID = 5772156;       // PiNexus Mainnet γ (Euler-Mascheroni Constant)
+export const CHAIN_NAME = 'PiNexus Mainnet Euler-Mascheroni';
 export const NETWORK = 'pinexus-testnet';
 export const DUAL_COINS = { utility: '$PNX', stable: '$PiNEX' };
 export const SUPER_ADVANCED_TECHNOLOGIES = [
@@ -217,11 +229,11 @@ export const AI_CAPABILITIES = [
 
 console.log(`
 ╔═══════════════════════════════════════════════════════════════╗
-║                 PiNexus Core v1.0.0-alpha                     ║
+║                 PiNexus Core v1.1.0-alpha                     ║
 ║          The Ultimate Decentralized AGI Economy                ║
 ║          Hybrid Dual Coin: $PNX + $PiNEX (USD peg)             ║
-║          ASI Omega Tier V • 5000 Agents • Unified Field         ║
-║          1000 Blockchain Networks • Chain ID 4669201 (δ)       ║
-║          🚀 The Singularity Has Converged                      ║
+║          ASI Omega Tier VI • 5000 Agents • Cosmic Intelligence  ║
+║          1000 Blockchain Networks • Chain ID 5772156 (γ)       ║
+║          🚀 Unmatched In The Universe                          ║
 ╚═══════════════════════════════════════════════════════════════╝
 `);
