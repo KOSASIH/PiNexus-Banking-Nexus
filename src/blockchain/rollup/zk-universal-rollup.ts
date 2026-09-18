@@ -76,7 +76,7 @@ export class ZKUniversalRollupEngine {
   private rootCount = 0;
   private challengeCount = 0;
   private readonly CHALLENGE_WINDOW_MS = 7 * 24 * 3600 * 1000; // 7 days optimistic window
-  private readonly MAINNET_CHAIN_ID = 5772156;
+  private readonly MAINNET_CHAIN_ID = 1202056;
 
   constructor() {
     console.log('[ZKUniversalRollup] Online — recursive SNARK aggregation across 1000 chains, settling on PiNexus mainnet');
