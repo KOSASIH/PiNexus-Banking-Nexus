@@ -271,13 +271,13 @@ export class PiNexusMainnet {
       networkHashRate: '10 EH/s (intelligence-weighted)',
       p2pPeerCount: 0,
       uptimeMs: 0,
-      chainId: this.config?.chainId ?? 5772156,
+      chainId: this.config?.chainId ?? 1202056,
     };
   }
 
   private _buildDefaultGenesis(overrides?: Partial<GenesisConfig>): GenesisConfig {
     return {
-      chainId: 5772156,  // PiNexus Mainnet
+      chainId: 1202056,  // PiNexus Mainnet
       chainName: 'PiNexus Mainnet',
       nativeCurrency: { name: 'PiNexus', symbol: 'PNX', decimals: 18 },
       initialValidators: [
