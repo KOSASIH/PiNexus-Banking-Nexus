@@ -62,7 +62,7 @@ export interface GraphQLSubgraph {
 export interface WSSubscription {
   subscriptionId: string;
   keyId: string;
-  channel: string;              // e.g. 'chain:5772156:newBlocks', 'agi:predictions', 'price:PNX-USD'
+  channel: string;              // e.g. 'chain:1202056:newBlocks', 'agi:predictions', 'price:PNX-USD'
   createdAt: number;
   messagesDelivered: number;
   isActive: boolean;
@@ -276,7 +276,7 @@ export class UniversalAPIGateway {
 
   private _bootstrapChainEndpoints(): void {
     const chains: [number | string, string[]][] = [
-      [5772156, ['https://rpc1.pinexus.network', 'https://rpc2.pinexus.network']],
+      [1202056, ['https://rpc1.pinexus.network', 'https://rpc2.pinexus.network']],
       [1, ['https://eth.llamarpc.com', 'https://rpc.ankr.com/eth']],
       [56, ['https://bsc-dataseed.binance.org']],
       [137, ['https://polygon-rpc.com']],
