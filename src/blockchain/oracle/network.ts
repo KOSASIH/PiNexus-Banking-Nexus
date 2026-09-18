@@ -245,7 +245,7 @@ export class AIOracle {
         deviationThreshold: 0.005,  // 0.5%
         minSubmitters: 7,
         aggregationMethod: 'ai_consensus',
-        subscribedChains: [1, 56, 137, 43114, 5772156],
+        subscribedChains: [1, 56, 137, 43114, 1202056],
         isActive: true,
       });
     }
